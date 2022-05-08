@@ -1,0 +1,7 @@
+name: github-actions-demo
+on: [push]
+jobs:
+  Test-github-actions:
+    runs-on: ubuntu-latest
+      steps:
+        - run python -version
